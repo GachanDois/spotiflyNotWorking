@@ -1,0 +1,9 @@
+.formulae { 
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+} 
+.simple { 
+    align-items: center; 
+
+}

@@ -1,0 +1,45 @@
+.mains{
+    height:50vh;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /*background: linear-gradient(50deg, #0d0026, #14D8CE);*/
+    /*background-size: 400% 400%;*/
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjiMMtucxmJ-3ilu-tmM7MPDaESxcSNLEKXg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 2300px 2000px;
+}
+
+@keyframes AnimationName {
+    0%{background-position:54% 0%}
+    50%{background-position:47% 100%}
+    100%{background-position:54% 0%}
+}
+input{
+    margin-top: 30px;
+    width: 550px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 2px solid grey;
+    padding: 5px;
+
+}
+.search-icon {
+    position: absolute;
+    left: 0;
+}
+
+h3 {
+    display: block;
+    font-size: 60px;
+    color: white;
+    padding-top: 80px;
+}

@@ -1,0 +1,22 @@
+.whole { 
+    color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.toparea { 
+    display: flex;
+    flex-direction: row;
+} 
+.subhead {
+    display: flex;
+    flex-direction: column;
+}  
+.bottomarea   { 
+    display: flex;
+    flex-direction: row;
+} 
+
+.bottomarea button  {  
+    margin: 5%;
+}

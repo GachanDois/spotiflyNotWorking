@@ -1,0 +1,23 @@
+img {
+    padding: 4px;
+    margin: 30px;
+}
+
+
+.hover12 figure {
+    background: #204661;
+}
+.hover12 figure img {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    float: left;
+}
+.hover12 figure:hover img {
+    background: #204661;
+    opacity: .5;
+}
+
+h11{
+    color: black;
+}

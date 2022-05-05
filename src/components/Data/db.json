@@ -1,0 +1,432 @@
+{
+  "users": [
+    {
+      "name": "leofrio",
+      "email": "leogaspar01@hotmail.com",
+      "senha": "123456",
+      "dataNascimento": "2001-06-12",
+      "playlists": [],
+      "id": 1
+    },
+    {
+      "name": "one",
+      "email": "1@1.com",
+      "senha": "1",
+      "dataNascimento": "2022-05-31",
+      "id": 2,
+      "playlists": [
+        {
+          "name": "cxxc",
+          "capa": "blankPlaylist.png",
+          "descricao": "a",
+          "autor": "Spotifly",
+          "quantidadeFaixas": "2 faixas",
+          "quantidadeCurtidas": "2.450 curtidas",
+          "musicas": []
+        },
+        {
+          "name": "crica199",
+          "capa": "blankPlaylist.png",
+          "descricao": "a",
+          "autor": "Spotifly",
+          "quantidadeFaixas": "2 faixas",
+          "quantidadeCurtidas": "2.450 curtidas",
+          "musicas": []
+        }
+      ]
+    },
+    {
+      "name": "Walter",
+      "email": "walter@gmail.com",
+      "senha": "123",
+      "dataNascimento": "2001-10-07",
+      "id": 3,
+      "playlists": [
+        {
+          "name": "231212332",
+          "capa": "blankPlaylist.png",
+          "descricao": "a",
+          "autor": "Spotifly",
+          "quantidadeFaixas": "2 faixas",
+          "quantidadeCurtidas": "2.450 curtidas",
+          "userId": 3,
+          "musicas": []
+        },
+        {
+          "name": "sdsdsddsd",
+          "capa": "blankPlaylist.png",
+          "descricao": "a",
+          "autor": "Spotifly",
+          "quantidadeFaixas": "2 faixas",
+          "quantidadeCurtidas": "2.450 curtidas",
+          "userId": 3,
+          "musicas": []
+        }
+      ]
+    },
+    {
+      "name": "Gachan",
+      "email": "gabriel.abbud@gmail.com",
+      "senha": "123456",
+      "dataNascimento": "2001-10-25",
+      "id": 20,
+      "playlists": [
+        {
+          "name": "eogachasss",
+          "capa": "blankPlaylist.png",
+          "descricao": "a",
+          "autor": "Spotifly",
+          "quantidadeFaixas": "2 faixas",
+          "quantidadeCurtidas": "2.450 curtidas",
+          "userId": 20,
+          "musicas": []
+        },
+        {
+          "name": "dsadas",
+          "capa": "blankPlaylist.png",
+          "descricao": "a",
+          "autor": "Gachan",
+          "quantidadeFaixas": "1",
+          "quantidadeCurtidas": "2.450 curtidas",
+          "userId": 20,
+          "musicas": []
+        },
+        {
+          "name": "ergrg",
+          "capa": "blankPlaylist.png",
+          "descricao": "a",
+          "autor": "Gachan",
+          "quantidadeFaixas": "1",
+          "quantidadeCurtidas": "2.450 curtidas",
+          "userId": 20,
+          "musicas": []
+        }
+      ]
+    }
+  ],
+  "currentUser": {
+    "name": "Gachan",
+    "email": "gabriel.abbud@gmail.com",
+    "senha": "123456",
+    "dataNascimento": "2001-10-25",
+    "id": 20,
+    "playlists": [
+      {
+        "name": "eogachasss",
+        "capa": "blankPlaylist.png",
+        "descricao": "a",
+        "autor": "Spotifly",
+        "quantidadeFaixas": "2 faixas",
+        "quantidadeCurtidas": "2.450 curtidas",
+        "userId": 20,
+        "musicas": []
+      },
+      {
+        "name": "dsadas",
+        "capa": "blankPlaylist.png",
+        "descricao": "a",
+        "autor": "Gachan",
+        "quantidadeFaixas": "1",
+        "quantidadeCurtidas": "2.450 curtidas",
+        "userId": 20,
+        "musicas": []
+      },
+      {
+        "name": "ergrg",
+        "capa": "blankPlaylist.png",
+        "descricao": "a",
+        "autor": "Gachan",
+        "quantidadeFaixas": "1",
+        "quantidadeCurtidas": "2.450 curtidas",
+        "userId": 20,
+        "musicas": []
+      }
+    ]
+  },
+  "playlists": [
+    {
+      "id": 1,
+      "name": "Ultimate Hard Rock/Metal Mix",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mauris neque, in pellentesque ex tempus in. Maecenas hendrerit vitae risus a blandit.",
+      "capa": "metal.png",
+      "autor": "Spotifly",
+      "quantidadeFaixas": "2 faixas",
+      "quantidadeCurtidas": "2.450 curtidas",
+      "musicas": [
+        {
+          "id_musica": 1,
+          "Cantor": "Massacration",
+          "titulo_musica": "Metal is The Law",
+          "musica": "metalisthelaw.mp3",
+          "capa": "metal.png"
+        },
+        {
+          "id_musica": 2,
+          "Cantor": "Metallica",
+          "titulo_musica": "For Whom the Bell Toll",
+          "musica": "forwhomthebelltolls.mp3",
+          "capa": "metal.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Alternativo",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mauris neque, in pellentesque ex tempus in. Maecenas hendrerit vitae risus a blandit.",
+      "autor": "Spotifly",
+      "quantidadeFaixas": "2 faixas",
+      "quantidadeCurtidas": "2.450 curtidas",
+      "capa": "alternative.png",
+      "musicas": [
+        {
+          "id_musica": 3,
+          "Cantor": "Artic Monkeys",
+          "titulo_musica": "Do I Wanna Know",
+          "musica": "metalisthelaw.mp3"
+        },
+        {
+          "id_musica": 4,
+          "Cantor": "Gorillaz",
+          "titulo_musica": "Feel Good Inc",
+          "musica": "feelgood.mp3"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Pop Nacional",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mauris neque, in pellentesque ex tempus in. Maecenas hendrerit vitae risus a blandit.",
+      "autor": "Spotifly",
+      "quantidadeFaixas": "2 faixas",
+      "quantidadeCurtidas": "2.450 curtidas",
+      "capa": "pop_nacional.png",
+      "musicas": [
+        {
+          "id_musica": 5,
+          "Cantor": "Paralamas do sucesso",
+          "titulo_musica": "Meu erro",
+          "musica": "meuerro.mp3"
+        },
+        {
+          "id_musica": 6,
+          "Cantor": "Lulu Santos",
+          "titulo_musica": "Tempos Modernos",
+          "musica": "tempos_modernos.mp3"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Anime Hits",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mauris neque, in pellentesque ex tempus in. Maecenas hendrerit vitae risus a blandit.",
+      "capa": "anime.png",
+      "autor": "Spotifly",
+      "quantidadeFaixas": "2 faixas",
+      "quantidadeCurtidas": "2.450 curtidas",
+      "musicas": [
+        {
+          "id_musica": 7,
+          "Cantor": "One Piece",
+          "titulo_musica": "We Are!",
+          "musica": "weare.mp3"
+        },
+        {
+          "id_musica": 8,
+          "Cantor": "Naruto",
+          "titulo_musica": "GO!",
+          "musica": "flowgo.mp3"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "O Melhor da Música Alemã",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mauris neque, in pellentesque ex tempus in. Maecenas hendrerit vitae risus a blandit.",
+      "autor": "Spotifly",
+      "quantidadeFaixas": "2 faixas",
+      "quantidadeCurtidas": "2.450 curtidas",
+      "capa": "german.png",
+      "musicas": [
+        {
+          "id_musica": 10,
+          "Cantor": "German",
+          "titulo_musica": "Bibi Hendl",
+          "musica": "bibihendl.mp3"
+        },
+        {
+          "id_musica": 9,
+          "Cantor": "German",
+          "titulo_musica": "Auf und Auf Voll Lebenslust",
+          "musica": "aufundaufvolllebenslut.mp3"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Gospel",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mauris neque, in pellentesque ex tempus in. Maecenas hendrerit vitae risus a blandit.",
+      "autor": "Spotifly",
+      "quantidadeFaixas": "2 faixas",
+      "quantidadeCurtidas": "2.450 curtidas",
+      "capa": "gospel.png",
+      "musicas": [
+        {
+          "id_musica": 11,
+          "Cantor": "John Newton",
+          "titulo_musica": "Amazing Grace",
+          "musica": "amazinggrace.mp3"
+        },
+        {
+          "id_musica": 12,
+          "Cantor": "James Brown",
+          "titulo_musica": "Old Landmark",
+          "musica": "oldlandmark.mp3"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Country",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mauris neque, in pellentesque ex tempus in. Maecenas hendrerit vitae risus a blandit.",
+      "autor": "Spotifly",
+      "quantidadeFaixas": "2 faixas",
+      "quantidadeCurtidas": "2.450 curtidas",
+      "capa": "country.png",
+      "musicas": [
+        {
+          "id_musica": 15,
+          "Cantor": "Frankie Line",
+          "titulo_musica": "Rawhide",
+          "musica": "rawhide.mp3"
+        },
+        {
+          "id_musica": 16,
+          "Cantor": "Kenny Rogers",
+          "titulo_musica": "The Gambler",
+          "musica": "thegambler.mp3"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Sertanejo",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mauris neque, in pellentesque ex tempus in. Maecenas hendrerit vitae risus a blandit.",
+      "autor": "Spotifly",
+      "quantidadeFaixas": "2 faixas",
+      "quantidadeCurtidas": "2.450 curtidas",
+      "capa": "sertanejo.png",
+      "musicas": [
+        {
+          "id_musica": 14,
+          "Cantor": "Chitãozinho e Xororó",
+          "titulo_musica": "Evidencias",
+          "musica": "evidencias.mp3"
+        },
+        {
+          "id_musica": 13,
+          "Cantor": "Nenho",
+          "titulo_musica": "Desça Dai Seu Corno",
+          "musica": "descadaicorno.mp3"
+        }
+      ]
+    }
+  ],
+  "musicas": [
+    {
+      "id_musica": 1,
+      "Cantor": "Massacration",
+      "titulo_musica": "Metal is The Law",
+      "musica": "metalisthelaw.mp3"
+    },
+    {
+      "id_musica": 2,
+      "Cantor": "Metallica",
+      "titulo_musica": "For Whom the Bell Toll",
+      "musica": "forwhomthebelltolls.mp3"
+    },
+    {
+      "id_musica": 3,
+      "Cantor": "Artic Monkeys",
+      "titulo_musica": "Do I Wanna Know",
+      "musica": "metalisthelaw.mp3"
+    },
+    {
+      "id_musica": 4,
+      "Cantor": "Gorillaz",
+      "titulo_musica": "Feel Good Inc",
+      "musica": "feelgood.mp3"
+    },
+    {
+      "id_musica": 5,
+      "Cantor": "Paralamas do sucesso",
+      "titulo_musica": "Meu erro",
+      "musica": "meuerro.mp3"
+    },
+    {
+      "id_musica": 6,
+      "Cantor": "Lulu Santos",
+      "titulo_musica": "Tempos Modernos",
+      "musica": "tempos_modernos.mp3"
+    },
+    {
+      "id_musica": 7,
+      "Cantor": "One Piece",
+      "titulo_musica": "We Are!",
+      "musica": "weare.mp3"
+    },
+    {
+      "id_musica": 8,
+      "Cantor": "Naruto",
+      "titulo_musica": "GO!",
+      "musica": "flowgo.mp3"
+    },
+    {
+      "id_musica": 9,
+      "Cantor": "German",
+      "titulo_musica": "Auf und Auf Voll Lebenslust",
+      "musica": "aufundaufvolllebenslut.mp3"
+    },
+    {
+      "id_musica": 10,
+      "Cantor": "German",
+      "titulo_musica": "Bibi Hendl",
+      "musica": "bibihendl.mp3"
+    },
+    {
+      "id_musica": 11,
+      "Cantor": "John Newton",
+      "titulo_musica": "Amazing Grace",
+      "musica": "amazinggrace.mp3"
+    },
+    {
+      "id_musica": 12,
+      "Cantor": "James Brown",
+      "titulo_musica": "Old Landmark",
+      "musica": "oldlandmark.mp3"
+    },
+    {
+      "id_musica": 13,
+      "Cantor": "Nenho",
+      "titulo_musica": "Desça Dai Seu Corno",
+      "musica": "descadaicorno.mp3"
+    },
+    {
+      "id_musica": 14,
+      "Cantor": "Chitãozinho e Xororó",
+      "titulo_musica": "Evidencias",
+      "musica": "evidencias.mp3"
+    },
+    {
+      "id_musica": 15,
+      "Cantor": "Frankie Line",
+      "titulo_musica": "Rawhide",
+      "musica": "rawhide.mp3"
+    },
+    {
+      "id_musica": 16,
+      "Cantor": "Kenny Rogers",
+      "titulo_musica": "The Gambler",
+      "musica": "thegambler.mp3"
+    }
+  ]
+}
